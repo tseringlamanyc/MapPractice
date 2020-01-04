@@ -55,18 +55,18 @@ extension PeopleViewController: UITableViewDataSource {
         let aUser = usersData[indexPath.row]
         cell.textLabel?.text = aUser.name.first
         cell.detailTextLabel?.text = aUser.email
-//        cell.imageView?.getImage(with: aUser.picture.thumbnail, completion: { (result) in
-//            switch result {
-//            case .failure(_):
-//                DispatchQueue.main.async {
-//                    cell.imageView?.image = UIImage(named: "person.fill")
-//                }
-//            case .success(let image):
-//                DispatchQueue.main.async {
-//                    cell.imageView?.image = image
-//                }
-//            }
-//        })
+        cell.imageView?.getImage(with: aUser.picture.medium, completion: { (result) in
+            switch result {
+            case .failure(_):
+                DispatchQueue.main.async {
+                    cell.imageView?.image = UIImage(named: "person.fill")
+                }
+            case .success(let image):
+                DispatchQueue.main.async {
+                    cell.imageView?.image = image
+                }
+            }
+        })
         return cell
     }
 }
