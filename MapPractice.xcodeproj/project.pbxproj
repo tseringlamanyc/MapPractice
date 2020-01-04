@@ -14,6 +14,10 @@
 		52EF195023C0436C00985F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EF194F23C0436C00985F9E /* Assets.xcassets */; };
 		52EF195323C0436C00985F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EF195123C0436C00985F9E /* LaunchScreen.storyboard */; };
 		52EF195C23C0450300985F9E /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF195B23C0450300985F9E /* MapVC.swift */; };
+		52EF196523C04BBA00985F9E /* ImageExtension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196123C04BBA00985F9E /* ImageExtension .swift */; };
+		52EF196623C04BBA00985F9E /* AlertFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196223C04BBA00985F9E /* AlertFile.swift */; };
+		52EF196723C04BBA00985F9E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196323C04BBA00985F9E /* AppError.swift */; };
+		52EF196823C04BBA00985F9E /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196423C04BBA00985F9E /* URLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		52EF195223C0436C00985F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EF195423C0436C00985F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52EF195B23C0450300985F9E /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		52EF196123C04BBA00985F9E /* ImageExtension .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ImageExtension .swift"; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/ImageExtension .swift"; sourceTree = "<group>"; };
+		52EF196223C04BBA00985F9E /* AlertFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertFile.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/AlertFile.swift"; sourceTree = "<group>"; };
+		52EF196323C04BBA00985F9E /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/AppError.swift"; sourceTree = "<group>"; };
+		52EF196423C04BBA00985F9E /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/URLSession.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		52EF193A23C0436900985F9E = {
 			isa = PBXGroup;
 			children = (
+				52EF195E23C04B2400985F9E /* API */,
+				52EF195D23C04B1100985F9E /* Helpers */,
 				52EF195A23C044D300985F9E /* View controllers */,
 				52EF194523C0436900985F9E /* MapPractice */,
 				52EF194423C0436900985F9E /* Products */,
@@ -76,6 +86,24 @@
 				52EF195B23C0450300985F9E /* MapVC.swift */,
 			);
 			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		52EF195D23C04B1100985F9E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52EF196223C04BBA00985F9E /* AlertFile.swift */,
+				52EF196323C04BBA00985F9E /* AppError.swift */,
+				52EF196123C04BBA00985F9E /* ImageExtension .swift */,
+				52EF196423C04BBA00985F9E /* URLSession.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52EF195E23C04B2400985F9E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +179,12 @@
 			files = (
 				52EF194B23C0436900985F9E /* PeopleViewController.swift in Sources */,
 				52EF195C23C0450300985F9E /* MapVC.swift in Sources */,
+				52EF196823C04BBA00985F9E /* URLSession.swift in Sources */,
+				52EF196523C04BBA00985F9E /* ImageExtension .swift in Sources */,
 				52EF194723C0436900985F9E /* AppDelegate.swift in Sources */,
+				52EF196623C04BBA00985F9E /* AlertFile.swift in Sources */,
 				52EF194923C0436900985F9E /* SceneDelegate.swift in Sources */,
+				52EF196723C04BBA00985F9E /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

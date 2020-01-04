@@ -10,7 +10,9 @@ import UIKit
 import MapKit
 
 class MapVC: UIViewController {
-
+    
+    @IBOutlet weak var mapVIew: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
