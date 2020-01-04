@@ -41,13 +41,24 @@
                     <view key="view" contentMode="scaleToFill" id="8Dj-Fj-8sf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CUw-v5-k6G">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CUw-v5-k6G" secondAttribute="bottom" id="1QK-KC-Wyd"/>
+                            <constraint firstItem="CUw-v5-k6G" firstAttribute="leading" secondItem="6e8-mh-rE4" secondAttribute="leading" id="AO6-JQ-KFA"/>
+                            <constraint firstItem="CUw-v5-k6G" firstAttribute="top" secondItem="6e8-mh-rE4" secondAttribute="top" id="C0Y-N7-xBw"/>
+                            <constraint firstItem="CUw-v5-k6G" firstAttribute="trailing" secondItem="6e8-mh-rE4" secondAttribute="trailing" id="aHG-ie-Utg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6e8-mh-rE4"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjo-Vd-dHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="864" y="138"/>
+            <point key="canvasLocation" x="863.768115942029" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
