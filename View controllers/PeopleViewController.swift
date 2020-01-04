@@ -38,7 +38,10 @@ class PeopleViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let mapVC = sugue
+        guard let mapVC = segue.destination as? MapVC, let indexpath = tableView.indexPathForSelectedRow else {
+            fatalError()
+        }
+        mapVC.persons = usersData[indexpath.row]
     }
 }
 
