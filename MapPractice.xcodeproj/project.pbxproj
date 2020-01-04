@@ -18,6 +18,8 @@
 		52EF196623C04BBA00985F9E /* AlertFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196223C04BBA00985F9E /* AlertFile.swift */; };
 		52EF196723C04BBA00985F9E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196323C04BBA00985F9E /* AppError.swift */; };
 		52EF196823C04BBA00985F9E /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196423C04BBA00985F9E /* URLSession.swift */; };
+		52EF196A23C04C3B00985F9E /* randomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196923C04C3B00985F9E /* randomUser.swift */; };
+		52EF196D23C04C7D00985F9E /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF196C23C04C7D00985F9E /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		52EF196223C04BBA00985F9E /* AlertFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertFile.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/AlertFile.swift"; sourceTree = "<group>"; };
 		52EF196323C04BBA00985F9E /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/AppError.swift"; sourceTree = "<group>"; };
 		52EF196423C04BBA00985F9E /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = "../../Pursuit-Core-iOS-Unit3-Final/Elements/Helpers/URLSession.swift"; sourceTree = "<group>"; };
+		52EF196923C04C3B00985F9E /* randomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomUser.swift; sourceTree = "<group>"; };
+		52EF196C23C04C7D00985F9E /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		52EF193A23C0436900985F9E = {
 			isa = PBXGroup;
 			children = (
+				52EF196B23C04C6B00985F9E /* Model */,
 				52EF195E23C04B2400985F9E /* API */,
 				52EF195D23C04B1100985F9E /* Helpers */,
 				52EF195A23C044D300985F9E /* View controllers */,
@@ -102,8 +107,17 @@
 		52EF195E23C04B2400985F9E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				52EF196923C04C3B00985F9E /* randomUser.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		52EF196B23C04C6B00985F9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52EF196C23C04C7D00985F9E /* Users.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,11 +193,13 @@
 			files = (
 				52EF194B23C0436900985F9E /* PeopleViewController.swift in Sources */,
 				52EF195C23C0450300985F9E /* MapVC.swift in Sources */,
+				52EF196D23C04C7D00985F9E /* Users.swift in Sources */,
 				52EF196823C04BBA00985F9E /* URLSession.swift in Sources */,
 				52EF196523C04BBA00985F9E /* ImageExtension .swift in Sources */,
 				52EF194723C0436900985F9E /* AppDelegate.swift in Sources */,
 				52EF196623C04BBA00985F9E /* AlertFile.swift in Sources */,
 				52EF194923C0436900985F9E /* SceneDelegate.swift in Sources */,
+				52EF196A23C04C3B00985F9E /* randomUser.swift in Sources */,
 				52EF196723C04BBA00985F9E /* AppError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
