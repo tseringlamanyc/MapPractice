@@ -12,7 +12,7 @@ struct RandomAPI {
     
     static func getUsers(completionHandler: @escaping (Result<[Result1],AppError>) -> ()) {
         
-        let userEndpoint = "https://randomuser.me/api/?results=50"
+        let userEndpoint = "https://randomuser.me/api/?results=10"
         
         guard let url = URL(string: userEndpoint) else {
             completionHandler(.failure(.badURL(userEndpoint)))
